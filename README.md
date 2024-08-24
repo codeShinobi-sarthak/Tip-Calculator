@@ -1,6 +1,6 @@
 # Tip Calculator
 
-![Tip Calculator](path-to-your-screenshot.png)
+![Tip Calculator](https://raw.githubusercontent.com/codeShinobi-sarthak/tip-calculator/main/Screenshot%202024-08-24%20091602.png)
 
 ## Overview
 
@@ -31,4 +31,4 @@ This **Tip Calculator** is a simple web application that helps you calculate the
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/tip-calculator.git
+   git clone https://github.com/yourusername/tip-calculator.git](https://github.com/codeShinobi-sarthak/tip-calculator.git
