@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap"
+            rel="stylesheet" />
+        <link
+            rel="stylesheet"
+            href="style.css"
+            type="text/css" />
+        <title>Tip Calculator</title>
+    </head>
+    <body>
+        <div class="mainContainer">
+            <h1>Tip Calculator</h1>
+            <div class="container">
+                <label for="billTotalInput">Bill Total</label>
+                <input
+                    onkeyup="calculateBill()"
+                    type="text"
+                    id="billTotalInput"
+                    placeholder="Enter your bill amount" />
+            </div>
+            <div class="container">
+                <label for="tipInput">Tip Percentage</label>
+                <input
+                    onkeyup="calculateBill()"
+                    type="text"
+                    id="tipInput"
+                    placeholder="Enter tip percentage" />
+            </div>
+            <div class="peopleContainer">
+                <label for="numberOfPeople">Number of People</label>
+                <div class="controls">
+                    <button onclick="decreasePeople()">-</button>
+                    <span id="numberOfPeople">1</span>
+                    <button onclick="increasePeople()">+</button>
+                </div>
+            </div>
+            <div class="totalContainer">
+                <div class="amounts">
+                    <h2>Total Amount : </h2>
+                    <div id="totalAmount">$0.00</div>
+                </div>
+                <div class="amounts">
+                    <h2>Total per Person : </h2>
+                    <div id="perPersonTotal">$0.00</div>
+                </div>
+            </div>
+        </div>
+        <script
+            type="text/javascript"
+            src="script.js"></script>
+    </body>
+</html>
