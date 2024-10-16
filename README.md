@@ -1,3 +1,5 @@
+# Live Demo : [https://codeshinobi-sarthak.github.io/website-template/](https://codeshinobi-sarthak.github.io/Tip-Calculator/)
+
 # Tip Calculator
 
 ![Tip Calculator](https://raw.githubusercontent.com/codeShinobi-sarthak/tip-calculator/main/Screenshot%202024-08-24%20091602.png)
